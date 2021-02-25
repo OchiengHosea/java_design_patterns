@@ -2,6 +2,9 @@ package com.company;
 
 import com.company.builder_patter.LunchOrder;
 
+import java.util.HashMap;
+import java.util.Optional;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,5 +14,9 @@ public class Main {
         builder.condiments("ds");
         LunchOrder lunchOrder = builder.build();
         System.out.println(lunchOrder);
+    }
+
+    public static void makeOrder(Optional<HashMap<String, String>> userSelections) {
+//        userSelections.no
     }
 }
