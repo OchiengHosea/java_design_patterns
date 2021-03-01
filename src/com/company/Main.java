@@ -2,13 +2,31 @@ package com.company;
 
 import com.company.builder_patter.LunchOrder;
 import com.company.builder_patter.MuseumTicket;
+import com.company.prototype_pattern.Record;
+import com.company.prototype_pattern.Statement;
 
 import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
+        prototypeExample();
+    }
 
+    public static void prototypeExample() {
+        String sql = "select * from movies where title = ?";
+        List<String> parameters = new ArrayList<>();
+        parameters.add("Star Wars");
+        Record record = new Record();
+        Statement firstStatement = new Statement(sql, parameters, record);
+        System.out.println(firstStatement.getSql());
+        System.out.println(firstStatement.getParameters());
+        System.out.println(firstStatement.getRecord());
+
+        Statement secondStatement = firstStatement.clone();
+        System.out.println(secondStatement.getSql());
+        System.out.println(secondStatement.getParameters());
+        System.out.println(secondStatement.getRecord());
     }
 
     public static void implementBuilder() {
