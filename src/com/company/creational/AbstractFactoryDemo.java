@@ -1,4 +1,4 @@
-package com.company;
+package com.company.creational;
 
 import org.w3c.dom.Document;
 

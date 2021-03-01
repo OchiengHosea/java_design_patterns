@@ -1,8 +1,8 @@
-package com.company;
+package com.company.creational;
 
-import com.company.factory_pattern.Website;
-import com.company.factory_pattern.WebsiteFactory;
-import com.company.factory_pattern.WebsiteType;
+import com.company.creational.factory_pattern.Website;
+import com.company.creational.factory_pattern.WebsiteFactory;
+import com.company.creational.factory_pattern.WebsiteType;
 
 public class FactoryDemo {
     public static void main(String[] args) {

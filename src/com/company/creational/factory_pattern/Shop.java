@@ -1,4 +1,4 @@
-package com.company.factory_pattern;
+package com.company.creational.factory_pattern;
 
 public class Shop extends Website{
     @Override

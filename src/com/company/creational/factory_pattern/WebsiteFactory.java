@@ -1,4 +1,4 @@
-package com.company.factory_pattern;
+package com.company.creational.factory_pattern;
 
 public class WebsiteFactory {
     public static Website getWebsite(WebsiteType siteType) {

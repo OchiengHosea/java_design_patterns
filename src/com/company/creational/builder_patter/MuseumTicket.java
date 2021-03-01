@@ -1,4 +1,4 @@
-package com.company.builder_patter;
+package com.company.creational.builder_patter;
 
 public class MuseumTicket {
     public static class Builder {

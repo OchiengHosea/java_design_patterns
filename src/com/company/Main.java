@@ -1,9 +1,8 @@
 package com.company;
 
-import com.company.builder_patter.LunchOrder;
-import com.company.builder_patter.MuseumTicket;
-import com.company.prototype_pattern.Record;
-import com.company.prototype_pattern.Statement;
+import com.company.creational.builder_patter.MuseumTicket;
+import com.company.creational.prototype_pattern.Record;
+import com.company.creational.prototype_pattern.Statement;
 
 import java.util.*;
 

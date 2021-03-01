@@ -1,7 +1,7 @@
-package com.company;
+package com.company.creational;
 
-import com.company.prototype_pattern.Movie;
-import com.company.prototype_pattern.Registry;
+import com.company.creational.prototype_pattern.Movie;
+import com.company.creational.prototype_pattern.Registry;
 
 public class PrototypeDemo {
     public static void main(String[] args) {
